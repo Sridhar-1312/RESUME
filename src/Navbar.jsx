@@ -1,27 +1,38 @@
 import React from 'react'
+import './Nav.css'
 
 
 function Navbar() {
   return (
     <>
     <div className="container">
-      <div className="row">
-        <div className="col-6">
-    <nav className='nav'>
-      <h1>John Doe</h1>
-      </nav>
-      </div>
-      <div className="col-6">
-      <ul className='nav nav-item '>
-        <p><a href="">About Me</a></p>
-        <p><a href="">Professional Experience</a></p>
-        <p><a href="">Contact</a></p>
-        </ul>
-        </div>
+ 
+      <nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><h1 >John Doe</h1></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        
+        <li class="nav-item">
+          <a class="nav-link" href="#">About me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Professional Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+       
+      </ul>
+     
+    </div>
+  </div>
+</nav>
 
-
-      </div>
-      </div>
+      
       <div>
         <h1>+About me</h1>
         <p>My Name is John Doe, i am a Multi diciplinar designer <br /> Morbi Leo Risus, Porta acconsectetur ac, vestibulum at ero bendum nibh</p>
@@ -30,23 +41,45 @@ function Navbar() {
       <div className="row">
       <div className="col-6">
       <div className="image">
-        <img src="" alt="" />
+        <img src="public/BOYS.jpg" alt="" />
       </div>
       </div>
       <div className="col-6">
-        <ul>
+        <div className='name-row'>
           <p>Name</p>
-          <p><hr />Born</p>
-          <p><hr />Address</p>
-          <p><hr />E-mail</p>
-          <p><hr />Phone</p>
-          <hr />
-        </ul>
+          <div>John Doe Manhatan</div>
+        </div>
+        <hr />
+        <div className='name-row'>
+      
+          <p>Born</p>
+          <div>12 October 1985</div>
+        </div>
+        <hr />
+
+        <div className='name-row'>
+          <p>Address</p>
+          <div> Las Rozas,Madrid,Spain</div>
+        </div>
+        <hr />
+        <div className='name-row'>
+          <p>E-mail</p>
+          <div>myemail@gmail.com</div>
+        </div>
+        <hr />
+        <div className='name-row'>
+          <p>Website</p>
+          <div>www.virgihodelavegaxom</div>
+        </div>
+        <hr />
+         
+         
+          
+        
       </div>
       </div>
-      <div className="footer">
-        <h2>+Work Experience</h2>
       </div>
+      
 
 
     
