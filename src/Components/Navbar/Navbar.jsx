@@ -3,6 +3,7 @@ import "./Nav.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import Workexp from "../WorkExperience/Workexp";
+import a from "./BOYS.jpg";
 
 function Navbar() {
   return (
@@ -57,7 +58,7 @@ function Navbar() {
         <div className="row">
           <div className=" col-lg-6 col-md-6 col-sm-12">
             <div className="image">
-              <img src="public/BOYS.jpg" alt="" />
+              <img src={a} alt="hello" />
             </div>
           </div>
           <div className=" col-lg-6 col-md-6 col-sm-12">
