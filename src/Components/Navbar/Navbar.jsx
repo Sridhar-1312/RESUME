@@ -11,6 +11,7 @@ function Navbar() {
   return (
     <>
       <div className="container">
+      {/* <div className="container"> */}
         <nav class="navbar navbar-expand-lg">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
