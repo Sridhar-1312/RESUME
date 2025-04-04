@@ -1,7 +1,7 @@
 import React from "react";
 import "./Nav.css";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.min.js";
+// import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import Workexp from "../WorkExperience/Workexp";
 import a from "./sigma.jpeg";
 import Education from "../Education/Education";
@@ -35,12 +35,17 @@ function Navbar() {
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
+                  <a class="nav-link" href="#exp1">
                     Professional Experience
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
+                  <a class="nav-link" href="#edu1">
+                    Education
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#lst1">
                     Contact
                   </a>
                 </li>

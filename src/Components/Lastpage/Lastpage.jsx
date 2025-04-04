@@ -3,7 +3,7 @@ import React from 'react'
 function Lastpage() {
   return (
     <>
-            <div className="container">
+            <div className="container" id='lst1'>
                         <h1>+Contact</h1>
                         <p>Drop me a line using contact from below</p>
                 <div className="row">
