@@ -3,7 +3,9 @@ import "./Nav.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import Workexp from "../WorkExperience/Workexp";
-import a from "./BOYS.jpg";
+import a from "./sigma.jpeg";
+import Education from "../Education/Education";
+import Lastpage from "../Lastpage/Lastpage";
 
 function Navbar() {
   return (
@@ -48,7 +50,7 @@ function Navbar() {
         </nav>
 
         <div>
-          <h1>+About mes</h1>
+          <h1>+About me</h1>
           <p>
             My Name is John Doe, i am a Multi diciplinar designer <br /> Morbi
             Leo Risus, Porta acconsectetur ac, vestibulum at ero bendum nibh
@@ -93,6 +95,8 @@ function Navbar() {
       </div>
 
       <Workexp />
+      <Education />
+      <Lastpage />
     </>
   );
 }
